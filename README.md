@@ -18,8 +18,11 @@
 
 // show april and may weeks
 #grid(columns: (1fr, 1fr), 
-    #monthweeks(c, month: 4),
-    #monthweeks(c, month: 5)
+    monthweeks(c, month: 4),
+    monthweeks(c, month: 5)
 )
+
+// show 2018 june 
+#monthweeks(c, month: 6, year: 2018)
 ```
 
